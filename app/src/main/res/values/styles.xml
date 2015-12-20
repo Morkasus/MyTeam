@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="dialog_light" parent="@android:style/Theme.Dialog">
+        <item name="@android:textColor">@color/pressed_purple_button</item>
+    </style>
+    
+    <style name="AuthBackground">
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+
+    <style name="MenuPage">
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/focused_purple_button</item>
+        <item name="colorPrimaryDark">@color/pressed_purple_button</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ViewPagerTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>
+

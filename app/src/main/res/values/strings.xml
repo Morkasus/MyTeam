@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyTeam</string>
+    <string name="error_username_password_missing">Please make sure you enter user name and password !</string>
+    <string name="login_error_title">Oops</string>
+    <string name="application_name">MyTeam</string>
+    <string name="sec_app_name">Shenkar project</string>
+    <string name="signup_title">Don\'t have an account? Sign Up!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="Login_button">SIGN IN</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="sign_up_name">Your name</string>
+    <string name="already_have_user">Already you have a user? Login !</string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="log_out_hamburger">Logout</string>
+    <string name="about_hamburger">About</string>
+    <string name="setting_hamburger">Setting</string>
+    <string name="my_team_hamburger">MyTeam</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MenuPage"
+    tools:context="com.example.morkasus.myteam.manager.ManagerMainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar"
+        ></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Zone"
+        android:layout_below="@id/tool_bar"
+        android:id="@+id/myZoneLabel"
+        android:layout_marginTop="100dp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/myZoneLabel"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout1"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Create Team"
+            android:id="@+id/createTeamButton"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:textColor="@color/text_color"
+            android:background="@color/light_purple_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="My Team"
+            android:id="@+id/TeamViewButton"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:textColor="@color/text_color"
+            android:background="@color/light_purple_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Profile"
+            android:id="@+id/profileButton"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:textColor="@color/text_color"
+            android:background="@color/light_purple_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Manage Team"
+            android:id="@+id/manageTeamButton"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:textColor="@color/text_color"
+            android:background="@color/light_purple_button"/>
+    </LinearLayout>
+
+</RelativeLayout>

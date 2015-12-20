@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/log_out_hamburger"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/about_hamburger"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:title="@string/setting_hamburger"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_MyTeam"
+        android:orderInCategory="100"
+        android:title="@string/my_team_hamburger"/>
+
+    <item
+        android:id="@+id/action_send_task"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/ic_menu_send"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
